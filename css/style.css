@@ -142,3 +142,20 @@ input[type=text], select, textarea {
     margin-left: 23vw;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  .item-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: ;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    margin-top: 100px;
+  }
+
+  .item-images img{
+    width: 80%;
+  }
+
+
+    
